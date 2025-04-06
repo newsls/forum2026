@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استمارة الالتحاق</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>استمارة الالتحاق</h2>
+        <form id="enrollmentForm">
+            <label for="childName">اسم الطفل:</label>
+            <input type="text" id="childName" name="childName" required>
+
+            <label for="birthDate">تاريخ الميلاد:</label>
+            <input type="date" id="birthDate" name="birthDate" required>
+
+            <label for="firstOct">السكن في أول أكتوبر:</label>
+            <input type="text" id="firstOct" name="firstOct">
+
+            <label for="previousSchool">المدرسة المحول منها:</label>
+            <input type="text" id="previousSchool" name="previousSchool">
+
+            <label for="address">عنوان المنزل:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="homePhone">تليفون المنزل:</label>
+            <input type="tel" id="homePhone" name="homePhone" required>
+
+            <label for="fatherName">اسم الأب:</label>
+            <input type="text" id="fatherName" name="fatherName" required>
+
+            <label for="fatherJob">الوظيفة:</label>
+            <input type="text" id="fatherJob" name="fatherJob">
+
+            <label for="fatherPhone">تليفون الأب:</label>
+            <input type="tel" id="fatherPhone" name="fatherPhone" required>
+
+            <label for="fatherID">رقم البطاقة:</label>
+            <input type="text" id="fatherID" name="fatherID">
+
+            <label for="fatherIDIssue">تاريخ ومكان إصدارها:</label>
+            <input type="text" id="fatherIDIssue" name="fatherIDIssue">
+
+            <label for="motherName">اسم الأم:</label>
+            <input type="text" id="motherName" name="motherName" required>
+
+            <label for="motherJob">الوظيفة:</label>
+            <input type="text" id="motherJob" name="motherJob">
+
+            <label for="motherPhone">تليفون الأم:</label>
+            <input type="tel" id="motherPhone" name="motherPhone" required>
+
+            <label for="emergencyPhone">تليفونات أخرى يمكن الاستعانة بها عند الضرورة:</label>
+            <input type="tel" id="emergencyPhone" name="emergencyPhone">
+
+            <label for="whatsapp">رقم التواصل واتساب:</label>
+            <input type="tel" id="whatsapp" name="whatsapp">
+
+            <label for="medicalCondition">الحالة الصحية للطفل:</label>
+            <textarea id="medicalCondition" name="medicalCondition"></textarea>
+
+            <label>حالة الزواج:</label>
+            <select id="maritalStatus" name="maritalStatus">
+                <option value="متزوج">متزوج</option>
+                <option value="منفصل">منفصل</option>
+            </select>
+
+            <label>هل ترغب في استخدام سيارة المدرسة؟</label>
+            <input type="radio" id="busYes" name="schoolBus" value="نعم"> نعم
+            <input type="radio" id="busNo" name="schoolBus" value="لا"> لا
+
+            <h3>أسماء الإخوة والأخوات:</h3>
+            <label for="sibling1">الاسم الأول:</label>
+            <input type="text" id="sibling1" name="sibling1">
+            <label for="school1">اسم المدرسة:</label>
+            <input type="text" id="school1" name="school1">
+
+            <label for="sibling2">الاسم الثاني:</label>
+            <input type="text" id="sibling2" name="sibling2">
+            <label for="school2">اسم المدرسة:</label>
+            <input type="text" id="school2" name="school2">
+
+            <button type="submit">إرسال</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
